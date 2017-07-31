@@ -1,0 +1,276 @@
+[
+    {
+        "class": "\u0433\u043b.",
+        "example": "I don't understand.",
+        "example_answer": "",
+        "id": 61,
+        "name_en": "understand",
+        "name_ru": "\u043f\u043e\u043d\u0438\u043c\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u02cc\u028cnd\u0259(r)\u02c8st\u00e6nd",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I can't climb off the cliff.",
+        "example_answer": "",
+        "id": 62,
+        "name_en": "climb",
+        "name_ru": "\u043a\u0430\u0440\u0430\u0431\u043a\u0430\u0442\u044c\u0441\u044f (\u0432\u0432\u0435\u0440\u0445 / \u0432\u043d\u0438\u0437)",
+        "siblings": "walk, run, hope",
+        "topics": [
+            17
+        ],
+        "tscp": "[kla\u026am]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u043d\u0430\u0440\u0435\u0447.",
+        "example": "My computer was OK yesterday.",
+        "example_answer": "",
+        "id": 63,
+        "name_en": "yesterday",
+        "name_ru": "\u0432\u0447\u0435\u0440\u0430",
+        "siblings": "today, tomorrow, month",
+        "topics": [],
+        "tscp": "[\u02c8jest\u0259(r)de\u026a]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "The map is in the tent.",
+        "example_answer": "There is a map in the tent.",
+        "id": 64,
+        "name_en": "map",
+        "name_ru": "\u043a\u0430\u0440\u0442\u0430",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[m\u00e6p]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I hope somebody has got my message.",
+        "example_answer": "",
+        "id": 65,
+        "name_en": "hope",
+        "name_ru": "\u043d\u0430\u0434\u0435\u044f\u0442\u044c\u0441\u044f",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[h\u0259\u028ap]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I've got lots of food and water.",
+        "example_answer": "",
+        "id": 66,
+        "name_en": "water",
+        "name_ru": "\u0432\u043e\u0434\u0430",
+        "siblings": "juce, milk, lake",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8w\u0254\u02d0t\u0259(r)]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Is it true?",
+        "example_answer": "",
+        "id": 67,
+        "name_en": "true",
+        "name_ru": "\u0432\u0435\u0440\u043d\u044b\u0439, \u043f\u0440\u0430\u0432\u0434\u0438\u0432\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[tru\u02d0]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Silly questions make you laugh.",
+        "example_answer": "",
+        "id": 68,
+        "name_en": "silly",
+        "name_ru": "\u0433\u043b\u0443\u043f\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u02c8s\u026ali]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Answer the questions.",
+        "example_answer": "",
+        "id": 69,
+        "name_en": "question",
+        "name_ru": "\u0432\u043e\u043f\u0440\u043e\u0441",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[\u02c8kwest\u0283(\u0259)n]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "Why are you laughing?",
+        "example_answer": "",
+        "id": 70,
+        "name_en": "laugh",
+        "name_ru": "\u0441\u043c\u0435\u044f\u0442\u044c\u0441\u044f",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[l\u0251\u02d0f]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "We have a good library in our school.",
+        "example_answer": "There is a good library in our school.",
+        "id": 71,
+        "name_en": "library",
+        "name_ru": "\u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430",
+        "siblings": "",
+        "topics": [
+            11
+        ],
+        "tscp": "[\u02c8la\u026abr\u0259ri]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "In our city you can find five theatres.",
+        "example_answer": "There are five theatres in our city.",
+        "id": 72,
+        "name_en": "theatre",
+        "name_ru": "\u0442\u0435\u0430\u0442\u0440",
+        "siblings": "museum, cinema, supermarket",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u02c8\u03b8\u026a\u0259t\u0259(r)]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "New bookshop opened in our street.",
+        "example_answer": "There is a new bookshop in our street.",
+        "id": 73,
+        "name_en": "bookshop",
+        "name_ru": "\u043a\u043d\u0438\u0436\u043d\u044b\u0439 \u043c\u0430\u0433\u0430\u0437\u0438\u043d",
+        "siblings": "",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u02c8b\u028ak\u02cc\u0283\u0252p]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I know two good supermarkets here.",
+        "example_answer": "There are two good supermarkets here.",
+        "id": 74,
+        "name_en": "supermarket",
+        "name_ru": "\u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442",
+        "siblings": "shop, bookshop, library",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u02c8su\u02d0p\u0259(r)\u02ccm\u0251\u02d0(r)k\u026at]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Swimming pool is full of water.",
+        "example_answer": "There is water in the swimming pool.",
+        "id": 75,
+        "name_en": "swimming pool",
+        "name_ru": "\u0431\u0430\u0441\u0441\u0435\u0439\u043d",
+        "siblings": "",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u02c8sw\u026am\u026a\u014b pu\u02d0l]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Snakes don't live in this lake.",
+        "example_answer": "There are no snakes in this lake.",
+        "id": 76,
+        "name_en": "lake",
+        "name_ru": "\u043e\u0437\u0435\u0440\u043e",
+        "siblings": "river, sea, shop",
+        "topics": [
+            12
+        ],
+        "tscp": "[le\u026ak]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "My city is on the Volga river.",
+        "example_answer": "There is the Volga river in my city.",
+        "id": 77,
+        "name_en": "river",
+        "name_ru": "\u0440\u0435\u043a\u0430",
+        "siblings": "lake, ocean, month",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8r\u026av\u0259(r)]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I saw five statues in the museum.",
+        "example_answer": "There are five statues in the museum.",
+        "id": 78,
+        "name_en": "museum",
+        "name_ru": "\u043c\u0443\u0437\u0435\u0439",
+        "siblings": "theatre, cinema, bookshop",
+        "topics": [
+            14
+        ],
+        "tscp": "[mju\u02d0\u02c8zi\u02d0\u0259m]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I found three robots in this toy shop.",
+        "example_answer": "There are three robots in this toy shop.",
+        "id": 79,
+        "name_en": "shop",
+        "name_ru": "\u043c\u0430\u0433\u0430\u0437\u0438\u043d",
+        "siblings": "supermarket, bookshop, theatre",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u0283\u0252p]",
+        "unit_id": 4
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "They were in London last month.",
+        "example_answer": "",
+        "id": 80,
+        "name_en": "month",
+        "name_ru": "\u043c\u0435\u0441\u044f\u0446",
+        "siblings": "year, week, museum",
+        "topics": [],
+        "tscp": "[m\u028cn\u03b8]",
+        "unit_id": 4
+    }
+]

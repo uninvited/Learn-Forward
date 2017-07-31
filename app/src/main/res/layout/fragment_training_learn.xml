@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/word_image"
+        android:maxWidth="@dimen/main_image_size"
+        android:maxHeight="@dimen/main_image_size"
+        android:layout_width="@dimen/main_image_size"
+        android:layout_height="@dimen/main_image_size"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/no_image" />
+
+    <TextView
+        android:id="@+id/word_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/word_image"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/training_word_en_text_size"
+        android:textStyle="bold"
+        android:text="word"/>
+
+    <TextView
+        android:id="@+id/word_transcription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_en"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/training_transcription_text_size"
+        android:text="[transcription]" />
+
+    <TextView
+        android:id="@+id/word_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_transcription"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/training_word_class_text_size"
+        android:textStyle="italic"
+        android:text="class" />
+
+
+    <TextView
+        android:id="@+id/word_ru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_class"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:textSize="@dimen/training_word_ru_text_size"
+        android:text="перевод" />
+
+    <TextView
+        android:id="@+id/word_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_ru"
+        android:layout_marginTop="12dp"
+        android:textSize="@dimen/training_word_example_text_size"
+        android:textStyle="italic"
+        android:maxLines="3"
+        android:text="Usage example"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/audio"
+        android:layout_width="@dimen/audio_button_size"
+        android:layout_height="@dimen/audio_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sound_drawable"
+        android:layout_margin="6dp"/>
+
+    <LinearLayout
+        android:id="@+id/indicators_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

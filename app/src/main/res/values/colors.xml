@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#234083</color>
+    <color name="light_grey">#dddddd</color>
+    <color name="dark_grey">#222222</color>
+    <color name="red">#FF0000</color>
+    <color name="light_red">#FFBBBB</color>
+    <color name="correct_green">#27911c</color>
+    <color name="light_green">#69d15e</color>
+    <color name="dark_red">#ab0606</color>
+    <color name="progress_bar">#80def5</color>
+
+    <color name="submit_btn">#cccccc</color>
+    <color name="submit_btn_50">#77cccccc</color>
+
+    <color name="units_panel">#3367bf</color>
+    <color name="units_panel_50">#773367bf</color>
+
+    <color name="panel_learn">#4da75f</color>
+    <color name="panel_learn_50">#774da75f</color>
+
+    <color name="panel_read_and_recall">#6895c4</color>
+    <color name="panel_read_and_recall_50">#776895c4</color>
+
+    <color name="panel_listen_choose">#8468c4</color>
+    <color name="panel_listen_choose_50">#778468c4</color>
+
+    <color name="panel_listen_print">#ce7fac</color>
+    <color name="panel_listen_print_50">#77ce7fac</color>
+
+    <color name="panel_translate">#f7cc60</color>
+    <color name="panel_translate_50">#77f7cc60</color>
+
+    <color name="panel_choose_translation">#ffa35c</color>
+    <color name="panel_choose_translation_50">#77ffa35c</color>
+
+    <color name="panel_choose_word_in_phrase">#e74863</color>
+    <color name="panel_choose_word_in_phrase_50">#77e74863</color>
+
+    <color name="panel_sort_words_by_class">#add16b</color>
+    <color name="panel_sort_words_by_class_50">#77add16b</color>
+
+    <color name="panel_choose_odd">#60c3cc</color>
+    <color name="panel_choose_odd_50">#7760c3cc</color>
+
+    <color name="panel_speak">#6181e7</color>
+    <color name="panel_speak_50">#776181e7</color>
+
+    <color name="noun">#3333a3</color>
+    <color name="verb">#14781e</color>
+    <color name="adjective">#ab0606</color>
+    <color name="default_class">#000000</color>
+
+</resources>

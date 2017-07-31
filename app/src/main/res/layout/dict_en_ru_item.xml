@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/audio_button"
+            android:layout_width="@dimen/dict_audio_icon_size"
+            android:layout_height="@dimen/dict_audio_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/sound_drawable" />
+
+        <TextView
+            android:id="@+id/word_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center_vertical"
+            android:text="Identity card"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dict_word_text_size" />
+
+        <TextView
+            android:id="@+id/word_ru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right|center_vertical"
+            android:text="удостоверение личности"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dict_word_text_size" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/light_grey" />
+</LinearLayout>

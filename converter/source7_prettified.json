@@ -1,0 +1,272 @@
+[
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "What's wrong?",
+        "example_answer": "",
+        "id": 121,
+        "name_en": "wrong",
+        "name_ru": "\u043d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[r\u0252\u014b]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I don't read newspapers.",
+        "example_answer": "I don't read newspapers. ",
+        "id": 122,
+        "name_en": "newspaper",
+        "name_ru": "\u0433\u0430\u0437\u0435\u0442\u0430",
+        "siblings": "magazine, book, bike",
+        "topics": [],
+        "tscp": "[\u02c8nju\u02d0z\u02ccpe\u026ap\u0259]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "We can use dictionary to find out the translation of the word.",
+        "example_answer": "",
+        "id": 123,
+        "name_en": "find out",
+        "name_ru": "\u0443\u0437\u043d\u0430\u0432\u0430\u0442\u044c, \u0432\u044b\u044f\u0441\u043d\u044f\u0442\u044c",
+        "siblings": "learn, understand, clean",
+        "topics": [
+            17
+        ],
+        "tscp": "[fa\u026and a\u028at]",
+        "unit_id": 7
+    },
+    {
+        "class": "",
+        "example": "You can't go to the theatre on your own.",
+        "example_answer": "I can't go to the theatre on my own.",
+        "id": 124,
+        "name_en": "on your own",
+        "name_ru": "\u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u0432 \u043e\u0434\u0438\u043d\u043e\u0447\u043a\u0443",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[\u0252n j\u0254\u02d0 \u0259\u028an]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u043d\u0430\u0440\u0435\u0447.",
+        "example": "Yes, of course!",
+        "example_answer": "",
+        "id": 125,
+        "name_en": "of course",
+        "name_ru": "\u043a\u043e\u043d\u0435\u0447\u043d\u043e",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[\u0259v k\u0254\u02d0s]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I always meet my friends at the swimming pool.",
+        "example_answer": "I always meet my friends in the park.",
+        "id": 126,
+        "name_en": "meet",
+        "name_ru": "\u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044c",
+        "siblings": "see, visit, take",
+        "topics": [
+            17
+        ],
+        "tscp": "[mi\u02d0t]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "Excuse me, please!",
+        "example_answer": "",
+        "id": 127,
+        "name_en": "excuse",
+        "name_ru": "\u0438\u0437\u0432\u0438\u043d\u044f\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u026ak\u02c8skju\u02d0s",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I often go to the park by bike.",
+        "example_answer": "I never go to the park by bike.",
+        "id": 128,
+        "name_en": "bike",
+        "name_ru": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+        "siblings": "car, train, newspaper",
+        "topics": [
+            9
+        ],
+        "tscp": "[ba\u026ak]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "What time does the train leave?",
+        "example_answer": "",
+        "id": 129,
+        "name_en": "leave",
+        "name_ru": "\u043f\u043e\u043a\u0438\u0434\u0430\u0442\u044c, \u0443\u0435\u0437\u0436\u0430\u0442\u044c",
+        "siblings": "come, arrive, must",
+        "topics": [
+            17
+        ],
+        "tscp": "[li\u02d0v]",
+        "unit_id": 7
+    },
+    {
+        "class": "",
+        "example": "Let's go to the museum.",
+        "example_answer": "",
+        "id": 130,
+        "name_en": "let's",
+        "name_ru": "\u0434\u0430\u0432\u0430\u0439\u0442\u0435",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[lets]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "She buys books online. ",
+        "example_answer": "I buy books in bookshops. ",
+        "id": 131,
+        "name_en": "buy",
+        "name_ru": "\u043f\u043e\u043a\u0443\u043f\u0430\u0442\u044c",
+        "siblings": "take, find, meet",
+        "topics": [
+            17
+        ],
+        "tscp": "[ba\u026a]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I like magazines about cars.",
+        "example_answer": "I like magazines about nature.",
+        "id": 132,
+        "name_en": "magazine",
+        "name_ru": "\u0436\u0443\u0440\u043d\u0430\u043b",
+        "siblings": "book, newspaper, ball",
+        "topics": [],
+        "tscp": "[\u02ccm\u00e6\u0261\u0259\u02c8zi\u02d0n]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I clean my teeth once a day.",
+        "example_answer": "I clean my teeth two times a day.",
+        "id": 133,
+        "name_en": "clean",
+        "name_ru": "\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[kli\u02d0n]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "She must go to school on Saturdays.",
+        "example_answer": "I must not go to school on Saturdays.",
+        "id": 134,
+        "name_en": "must",
+        "name_ru": "\u0434\u043e\u043b\u0436\u0435\u043d, \u0434\u043e\u043b\u0436\u043d\u0430",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[m\u028cst]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "How shall we go to the station?",
+        "example_answer": "",
+        "id": 135,
+        "name_en": "station",
+        "name_ru": "\u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "siblings": "",
+        "topics": [
+            14
+        ],
+        "tscp": "[\u02c8ste\u026a\u0283\u0259n]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "We must buy some bread.",
+        "example_answer": "",
+        "id": 136,
+        "name_en": "bread",
+        "name_ru": "\u0445\u043b\u0435\u0431",
+        "siblings": "cake, pancake, plant",
+        "topics": [
+            8
+        ],
+        "tscp": "[bred]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Leo Tolstoy is a great writer. ",
+        "example_answer": "",
+        "id": 137,
+        "name_en": "great",
+        "name_ru": "\u0432\u0435\u043b\u0438\u043a\u0438\u0439, \u0431\u043e\u043b\u044c\u0448\u043e\u0439, \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u043d\u044b\u0439",
+        "siblings": "beautiful, lovely, wrong",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u0261re\u026at]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "It's a great idea!",
+        "example_answer": "",
+        "id": 138,
+        "name_en": "idea",
+        "name_ru": "\u0438\u0434\u0435\u044f",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[a\u026a\u02c8d\u026a\u0259]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I can take photos with my telephone. ",
+        "example_answer": "I can take photos with my camera. ",
+        "id": 139,
+        "name_en": "take",
+        "name_ru": "\u0431\u0440\u0430\u0442\u044c",
+        "siblings": "buy, find, leave",
+        "topics": [
+            17
+        ],
+        "tscp": "[te\u026ak]",
+        "unit_id": 7
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I don't  know my school timetable.",
+        "example_answer": "I know my school timetable.",
+        "id": 140,
+        "name_en": "timetable",
+        "name_ru": "\u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+        "siblings": "",
+        "topics": [
+            11
+        ],
+        "tscp": "[\u02c8ta\u026am\u02ccte\u026ab\u0259l]",
+        "unit_id": 7
+    }
+]

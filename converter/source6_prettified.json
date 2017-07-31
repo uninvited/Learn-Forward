@@ -1,0 +1,285 @@
+[
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "How many seasons are there in the year?",
+        "example_answer": "There are four seasons in the year.",
+        "id": 101,
+        "name_en": "year",
+        "name_ru": "\u0433\u043e\u0434",
+        "siblings": "month, week, other",
+        "topics": [
+            12
+        ],
+        "tscp": "[j\u026a\u0259(r)]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Do you like autumn?",
+        "example_answer": "Yes, I do! I like autumn.",
+        "id": 102,
+        "name_en": "autumn",
+        "name_ru": "\u043e\u0441\u0435\u043d\u044c",
+        "siblings": "spring, winter, year",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8\u0254\u02d0t\u0259m]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Is it cold in winter in your region?",
+        "example_answer": "Yes, it is! It's cold in winter in my region.",
+        "id": 103,
+        "name_en": "winter",
+        "name_ru": "\u0437\u0438\u043c\u0430",
+        "siblings": "autumn, summer, month",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8w\u026ant\u0259]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "What's your favourite month of spring?",
+        "example_answer": "My favourite month of spring is May.",
+        "id": 104,
+        "name_en": "spring",
+        "name_ru": "\u0432\u0435\u0441\u043d\u0430",
+        "siblings": "winter, summer, October",
+        "topics": [
+            12
+        ],
+        "tscp": "[spr\u026a\u014b]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Summer is my favourite season.",
+        "example_answer": "",
+        "id": 105,
+        "name_en": "summer",
+        "name_ru": "\u043b\u0435\u0442\u043e",
+        "siblings": "cold, hot, winter",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8s\u028cm\u0259]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Is the weather warm  in Moscow in September?",
+        "example_answer": "Yes, it is. The weather is usually warm in Moscow in September.",
+        "id": 106,
+        "name_en": "warm",
+        "name_ru": "\u0442\u0435\u043f\u043b\u044b\u0439",
+        "siblings": "hot, warm, summer",
+        "topics": [
+            12,
+            16
+        ],
+        "tscp": "[w\u0254\u02d0(r)m]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "It is always very cold in December.",
+        "example_answer": "",
+        "id": 107,
+        "name_en": "cold",
+        "name_ru": "\u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            12,
+            16
+        ],
+        "tscp": "[k\u0259\u028ald]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Mendeleev is famous all over the world.",
+        "example_answer": "",
+        "id": 108,
+        "name_en": "world",
+        "name_ru": "\u043c\u0438\u0440",
+        "siblings": "north, west, world",
+        "topics": [
+            12
+        ],
+        "tscp": "[w\u025c\u02d0(r)ld]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "The Black sea is in the south of Russia.",
+        "example_answer": "",
+        "id": 109,
+        "name_en": "south",
+        "name_ru": "\u044e\u0433",
+        "siblings": "west, north, cold",
+        "topics": [
+            12
+        ],
+        "tscp": "[sa\u028a\u03b8]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "What seas do you know?",
+        "example_answer": "I know The Black sea, The Bering sea, the Laptev sea.",
+        "id": 110,
+        "name_en": "sea",
+        "name_ru": "\u043c\u043e\u0440\u0435",
+        "siblings": "river, lake, mountain",
+        "topics": [
+            12
+        ],
+        "tscp": "[si\u02d0]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Do you live on the beach?",
+        "example_answer": "No, I don't! I don't live on the beach.",
+        "id": 111,
+        "name_en": "beach",
+        "name_ru": "\u043f\u043b\u044f\u0436",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[bi\u02d0t\u0283]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I like to dive in the sea.",
+        "example_answer": "",
+        "id": 112,
+        "name_en": "dive",
+        "name_ru": "\u043d\u044b\u0440\u044f\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            9,
+            17
+        ],
+        "tscp": "[da\u026av]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Where do squirrels live?",
+        "example_answer": "Squirrels live on the trees.",
+        "id": 113,
+        "name_en": "squirrel",
+        "name_ru": "\u0431\u0435\u043b\u043a\u0430",
+        "siblings": "",
+        "topics": [
+            10
+        ],
+        "tscp": "[\u02c8skw\u026ar\u0259l]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Where can we see a wolf?",
+        "example_answer": "We can see a wolf in the Zoo or in a forest. ",
+        "id": 114,
+        "name_en": "wolf",
+        "name_ru": "\u0432\u043e\u043b\u043a",
+        "siblings": "",
+        "topics": [
+            10
+        ],
+        "tscp": "[w\u028alf]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Where can we see elephants?",
+        "example_answer": "We can see elephants in the Zoo. ",
+        "id": 115,
+        "name_en": "elephant",
+        "name_ru": "\u0441\u043b\u043e\u043d",
+        "siblings": "",
+        "topics": [
+            10
+        ],
+        "tscp": "[\u02c8el\u026af\u0259nt]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Foxes and squirrels live in forests.",
+        "example_answer": "",
+        "id": 116,
+        "name_en": "fox",
+        "name_ru": "\u043b\u0438\u0441\u0430",
+        "siblings": "wolf, dog, bird",
+        "topics": [
+            10
+        ],
+        "tscp": "[f\u0252ks]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "There are mountains not far from Sochi.",
+        "example_answer": "",
+        "id": 117,
+        "name_en": "mountain",
+        "name_ru": "\u0433\u043e\u0440\u0430",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8ma\u028ant\u026an]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "The tiger has four strong legs.",
+        "example_answer": "",
+        "id": 118,
+        "name_en": "strong",
+        "name_ru": "\u0441\u0438\u043b\u044c\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            5,
+            10,
+            16
+        ],
+        "tscp": "[str\u0252\u014b]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I sit on the right side of the desk.",
+        "example_answer": "",
+        "id": 119,
+        "name_en": "side ",
+        "name_ru": "\u0441\u0442\u043e\u0440\u043e\u043d\u0430",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[sa\u026ad]",
+        "unit_id": 6
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "It's warm in the other seasons of the year.",
+        "example_answer": "",
+        "id": 120,
+        "name_en": "other",
+        "name_ru": "\u0434\u0440\u0443\u0433\u043e\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u02c8\u028c\u00f0\u0259]",
+        "unit_id": 6
+    }
+]

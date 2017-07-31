@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miplot.playandlearn.FeedbackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dp"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ответьте, пожалуйста, на вопросы этой анкеты"
+            android:layout_marginBottom="10dp"
+            android:textSize="@dimen/feedback_title_text_size"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/feedback_name"
+                android:textSize="@dimen/feedback_main_text_size"/>
+            <EditText
+                android:inputType="text"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/feedback_main_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/feedback_school"
+                android:textSize="@dimen/feedback_main_text_size"/>
+            <EditText
+                android:id="@+id/school"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:inputType="numberSigned"
+                android:textSize="@dimen/feedback_main_text_size"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/feedback_form"
+                android:textSize="@dimen/feedback_main_text_size"/>
+            <EditText
+                android:id="@+id/form"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:textSize="@dimen/feedback_main_text_size"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q1_interest"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/interest"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Не интересно"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Очень интересно"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q2_usefulness"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/usefulness"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Не помогло"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Очень помогло"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q3_recognize_when_read"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/recognize_when_read"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Ни одного"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Все"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q4_recognize_when_hear"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/recognize_when_hear"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Ни одного"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Все"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q5_use_in_writing"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/use_in_writing"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Ни одного"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Все"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q6_use_in_speech"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/use_in_speech"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Ни одного"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Все"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q7_remember_to_open"/>
+
+        <SeekBar
+            style="@style/FeedbackSeekBar"
+            android:id="@+id/remember_to_open"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="По напоминанию"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Всегда сам"
+                android:textSize="@dimen/feedback_seekbar_hint_text_size"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="@dimen/feedback_main_text_size"
+            android:text="@string/feedback_q8_suggestion"/>
+
+        <EditText
+            android:id="@+id/suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:maxLines="6"
+            android:lines="4"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/want_more_parts"
+                android:layout_alignParentStart="true"
+                android:textSize="@dimen/feedback_main_text_size"
+                android:text="@string/feedback_q9_want_more_parts"/>
+            <CheckBox
+                android:id="@+id/want_more_parts"
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Готово"
+            android:textSize="@dimen/feedback_title_text_size"
+            android:onClick="onSubmitClick"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/relative_layout">
+
+    <TextView
+        android:id="@+id/hint"
+        android:text="Вспомни перевод,\n нажми на '?' и повтори за диктором"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:textSize="@dimen/training_hint_text_size"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/word_image"
+        android:maxWidth="@dimen/main_image_size"
+        android:maxHeight="@dimen/main_image_size"
+        android:layout_width="@dimen/main_image_size"
+        android:layout_height="@dimen/main_image_size"
+        android:layout_below="@+id/hint"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/no_image"
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/question_mark"
+        android:layout_width="@dimen/main_image_size"
+        android:layout_height="@dimen/main_image_size"
+        android:text="\?"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/hint"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="120sp"
+        android:background="#cceeeeee"
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/word_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/word_image"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/training_word_en_text_size"
+        android:textStyle="bold"
+        android:text="word"
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/word_ru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_en"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="@dimen/training_word_ru_text_size"
+        android:text="перевод"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:id="@+id/indicators_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

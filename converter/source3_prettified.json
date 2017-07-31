@@ -1,0 +1,283 @@
+[
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Children are using a keyboard.",
+        "example_answer": "",
+        "id": 41,
+        "name_en": "keyboard",
+        "name_ru": "\u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430",
+        "siblings": "screen, mouse, cat",
+        "topics": [
+            13
+        ],
+        "tscp": "[\u02c8ki\u02d0\u02ccb\u0254\u02d0(r)d]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "They are looking at the screen.",
+        "example_answer": "",
+        "id": 42,
+        "name_en": "screen",
+        "name_ru": "\u044d\u043a\u0440\u0430\u043d",
+        "siblings": "computer, keyboard, book",
+        "topics": [
+            13
+        ],
+        "tscp": "[skri\u02d0n]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "The police use computers, too.",
+        "example_answer": "",
+        "id": 43,
+        "name_en": "use",
+        "name_ru": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            13
+        ],
+        "tscp": "[ju\u02d0z]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "She learns  English poems.",
+        "example_answer": "She is a pupil.",
+        "id": 44,
+        "name_en": "learn",
+        "name_ru": "\u0443\u0447\u0438\u0442\u044c",
+        "siblings": "study, teach, use",
+        "topics": [
+            11,
+            17
+        ],
+        "tscp": "[l\u025c\u02d0(r)n]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "My mother works in a laboratory.",
+        "example_answer": "She is a scientist.",
+        "id": 45,
+        "name_en": "work",
+        "name_ru": "\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[w\u025c\u02d0(r)k]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Chefs cook food at restaurants.",
+        "example_answer": "",
+        "id": 46,
+        "name_en": "chef",
+        "name_ru": "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440",
+        "siblings": "",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u0283ef]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "His father designs cars.",
+        "example_answer": "He is an engineer.",
+        "id": 47,
+        "name_en": "design",
+        "name_ru": "\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c, \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0442\u044c",
+        "siblings": "make, create, run",
+        "topics": [
+            17
+        ],
+        "tscp": "[design]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "They fly planes.",
+        "example_answer": "They are pilots.",
+        "id": 48,
+        "name_en": "fly",
+        "name_ru": "\u043b\u0435\u0442\u0430\u0442\u044c, \u043f\u0438\u043b\u043e\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[fla\u026a]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "What do you want to be?",
+        "example_answer": "",
+        "id": 49,
+        "name_en": "want",
+        "name_ru": "\u0445\u043e\u0442\u0435\u0442\u044c",
+        "siblings": "dream, need, fly",
+        "topics": [
+            17
+        ],
+        "tscp": "[w\u0252nt]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Doctors look after sick animals",
+        "example_answer": "",
+        "id": 50,
+        "name_en": "sick",
+        "name_ru": "\u0431\u043e\u043b\u044c\u043d\u043e\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[s\u026ak]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "What is her job?",
+        "example_answer": "",
+        "id": 51,
+        "name_en": "job",
+        "name_ru": "\u0440\u0430\u0431\u043e\u0442\u0430, \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c",
+        "siblings": "profession, post, school",
+        "topics": [
+            4
+        ],
+        "tscp": "[d\u0292\u0252b]",
+        "unit_id": 3
+    },
+    {
+        "class": "",
+        "example": "Mrs. Smith looks after sick people.",
+        "example_answer": "Mrs. Smith is a doctor.",
+        "id": 52,
+        "name_en": "look after",
+        "name_ru": "\u043f\u0440\u0438\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[l\u028ak \u02c8\u0251\u02d0ft\u0259(r)]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I walk to school.",
+        "example_answer": "",
+        "id": 53,
+        "name_en": "walk",
+        "name_ru": "\u0445\u043e\u0434\u0438\u0442\u044c, \u0433\u0443\u043b\u044f\u0442\u044c",
+        "siblings": "go, come, swim",
+        "topics": [
+            17
+        ],
+        "tscp": "[w\u0254\u02d0k]",
+        "unit_id": 3
+    },
+    {
+        "class": "",
+        "example": "I get up at seven o'clock every day.",
+        "example_answer": "",
+        "id": 54,
+        "name_en": "get up",
+        "name_ru": "\u0432\u0441\u0442\u0430\u0432\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u0261et \u028cp]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "They catch criminals.",
+        "example_answer": "They are the policemen.",
+        "id": 55,
+        "name_en": "catch",
+        "name_ru": "\u043f\u043e\u0439\u043c\u0430\u0442\u044c, \u0441\u0445\u0432\u0430\u0442\u0438\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[k\u00e6t\u0283]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "He cooks food in a restaurant.",
+        "example_answer": "He is a chef.",
+        "id": 56,
+        "name_en": "cook",
+        "name_ru": "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c \u0435\u0434\u0443",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[k\u028ak]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "The man is delivering a letter.",
+        "example_answer": "He is a postman.",
+        "id": 57,
+        "name_en": "deliver",
+        "name_ru": "\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c",
+        "siblings": "bring, give, want",
+        "topics": [
+            17
+        ],
+        "tscp": "[d\u026a\u02c8l\u026av\u0259(r)]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "She teaches English at school.",
+        "example_answer": "She is a teacher.",
+        "id": 58,
+        "name_en": "teach",
+        "name_ru": "\u043e\u0431\u0443\u0447\u0430\u0442\u044c, \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u044c",
+        "siblings": "study, learn, cook",
+        "topics": [
+            17
+        ],
+        "tscp": "[ti\u02d0t\u0283]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Superman is a famous hero.",
+        "example_answer": "",
+        "id": 59,
+        "name_en": "famous",
+        "name_ru": "\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u02c8fe\u026am\u0259s]",
+        "unit_id": 3
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "Tom studies at a University.",
+        "example_answer": "Tom is a student.",
+        "id": 60,
+        "name_en": "study",
+        "name_ru": "\u0438\u0437\u0443\u0447\u0430\u0442\u044c",
+        "siblings": "learn, teach, walk",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u02c8st\u028cdi]",
+        "unit_id": 3
+    }
+]

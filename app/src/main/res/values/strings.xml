@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Learn Forward</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="units" translatable="false">Units</string>
+    <string name="unit" translatable="false">Unit</string>
+    <string name="training_type_learn" translatable="false">Learn</string>
+    <string name="training_type_read_and_recall" translatable="false">Read and recall</string>
+    <string name="training_type_listen_and_choose" translatable="false">Listen and choose</string>
+    <string name="training_type_listen_and_print" translatable="false">Listen and print</string>
+    <string name="training_type_translate" translatable="false">Translate</string>
+    <string name="training_type_choose_translation" translatable="false">Choose\ntranslation</string>
+    <string name="training_type_choose_word_in_phrase" translatable="false">Choose word\nin phrase</string>
+    <string name="training_type_sort_by_word_class" translatable="false">Sort by\npart of speech</string>
+    <string name="training_type_choose_odd" translatable="false">Choose\nthe odd one</string>
+    <string name="training_type_speak" translatable="false">Speak</string>
+    <string name="keep_trying">Keep trying</string>
+    <string name="right_answer">That\'s right!</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_statistic">Statistics</string>
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="play">Play</string>
+    <string name="statistics">Statistics</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="settings">Settings</string>
+    <string name="send">Share statistics</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_name" translatable="false">Имя</string>
+    <string name="feedback_school" translatable="false">Школа</string>
+    <string name="feedback_form" translatable="false">Класс</string>
+    <string name="feedback_q1_interest" translatable="false">1. Интересно ли заниматься с приложением?</string>
+    <string name="feedback_q2_usefulness" translatable="false">2. Помогло ли приложение в освоении слов?</string>
+    <string name="feedback_q3_recognize_when_read" translatable="false">3. Как много слов из заданий вы теперь легко узнаете при чтении?</string>
+    <string name="feedback_q4_recognize_when_hear" translatable="false">4. Как много слов из заданий вы теперь легко узнаете на слух?</string>
+    <string name="feedback_q5_use_in_writing" translatable="false">5. Как много слов из заданий вы теперь легко сможете использовать при письме?</string>
+    <string name="feedback_q6_use_in_speech" translatable="false">6. Как много слов из заданий вы теперь легко сможете использовать в речи?</string>
+    <string name="feedback_q7_remember_to_open" translatable="false">7. Сами ли вы включали приложение или по напоминанию родителей?</string>
+    <string name="feedback_q8_suggestion" translatable="false">8. Что бы вы хотели изменить или дополнить в приложении?</string>
+    <string name="feedback_q9_want_more_parts" translatable="false">9. Хочу, чтобы вышло такое же приложение для других частей учебника</string>
+</resources>

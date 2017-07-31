@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.miplot.playandlearn.stat.StatisticsDaysFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Выполнено заданий"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/statistic_title_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/num_trainings_bars_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/statistic_bars_height"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:id="@+id/num_trainings_1"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_2"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_3"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_4"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_5"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_6"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/num_trainings_7"
+                    style="@style/StatGraphBar" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/num_trainings_days_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/day1_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day2_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day3_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day4_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day5_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day6_tr"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day7_tr"
+                    style="@style/StatGraphBarTextDay" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Потрачено времени (в минутах)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/statistic_title_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/durations_bars_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/statistic_bars_height"
+                android:orientation="horizontal"
+                android:baselineAligned="false" >
+
+                <TextView
+                    android:id="@+id/duration_1"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_2"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_3"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_4"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_5"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_6"
+                    style="@style/StatGraphBar" />
+
+                <TextView
+                    android:id="@+id/duration_7"
+                    style="@style/StatGraphBar" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/durations_days_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/day1_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day2_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day3_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day4_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day5_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day6_dur"
+                    style="@style/StatGraphBarTextDay" />
+
+                <TextView
+                    android:id="@+id/day7_dur"
+                    style="@style/StatGraphBarTextDay" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

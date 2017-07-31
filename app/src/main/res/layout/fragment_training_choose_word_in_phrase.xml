@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/relative_layout">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Найди слово в предложении"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:textSize="@dimen/training_hint_text_size"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/word_ru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hint"
+        android:text="Слово"
+        android:layout_marginTop="70dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/training_word_en_text_size"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/phrase_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/word_ru">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="Hello "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="January, "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="February, "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="March, "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="April, "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="April, "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/training_word_example_text_size"
+            android:text="May..."/>
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+    <LinearLayout
+        android:id="@+id/indicators_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

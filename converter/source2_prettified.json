@@ -1,0 +1,282 @@
+[
+    {
+        "class": "\u0433\u043b.",
+        "example": "I can help you.",
+        "example_answer": "I can't help you.",
+        "id": 21,
+        "name_en": "help",
+        "name_ru": "\u043f\u043e\u043c\u043e\u0433\u0430\u0442\u044c",
+        "siblings": "helpful, helpless, hope",
+        "topics": [
+            2
+        ],
+        "tscp": "[help]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "The message is disappearing.",
+        "example_answer": "The message is appearing.",
+        "id": 22,
+        "name_en": "disappear",
+        "name_ru": "\u0438\u0441\u0447\u0435\u0437\u0430\u0442\u044c",
+        "siblings": "appear, appearance, pear ",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u02ccd\u026as\u0259\u02c8p\u026a\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "We can find her.",
+        "example_answer": "We can't find her.",
+        "id": 23,
+        "name_en": "find",
+        "name_ru": "\u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c",
+        "siblings": "found, finding,  fine",
+        "topics": [
+            17
+        ],
+        "tscp": "[fa\u026and]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "She is following the professor.",
+        "example_answer": "",
+        "id": 24,
+        "name_en": "follow",
+        "name_ru": "\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c, \u0438\u0434\u0442\u0438 \u0437\u0430 \u043a\u0435\u043c-\u0442\u043e",
+        "siblings": "following, follower, full",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u02c8f\u0252l\u0259\u028a]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "What time does the plane arrive in Moscow?",
+        "example_answer": "What time does the plane depart from Moscow?",
+        "id": 25,
+        "name_en": "arrive",
+        "name_ru": "\u043f\u0440\u0438\u0431\u044b\u0432\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[\u0259\u02c8ra\u026av]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "I need help.",
+        "example_answer": "I don't need help.",
+        "id": 26,
+        "name_en": "need",
+        "name_ru": "\u043d\u0443\u0436\u0434\u0430\u0442\u044c\u0441\u044f",
+        "siblings": "",
+        "topics": [
+            2
+        ],
+        "tscp": "[ni\u02d0d]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "My aunt is wearing a hat.",
+        "example_answer": "",
+        "id": 27,
+        "name_en": "wear",
+        "name_ru": "\u043d\u043e\u0441\u0438\u0442\u044c (\u043e\u0434\u0435\u0436\u0434\u0443)",
+        "siblings": "",
+        "topics": [
+            7
+        ],
+        "tscp": "[we\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "There is a message on the computer.",
+        "example_answer": "",
+        "id": 28,
+        "name_en": "message",
+        "name_ru": "\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435",
+        "siblings": "",
+        "topics": [
+            13
+        ],
+        "tscp": "[\u02c8mes\u026ad\u0292]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Great Britain is an island.",
+        "example_answer": "",
+        "id": 29,
+        "name_en": "island",
+        "name_ru": "\u043e\u0441\u0442\u0440\u043e\u0432",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8a\u026al\u0259nd]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Harry Potter wears glasses.",
+        "example_answer": "",
+        "id": 30,
+        "name_en": "glasses",
+        "name_ru": "\u043e\u0447\u043a\u0438 (\u043c\u043d.\u0447.)",
+        "siblings": "",
+        "topics": [
+            5
+        ],
+        "tscp": "[\u02c8\u0261l\u0251\u02d0s\u026az]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "This explorer explores volcanoes.",
+        "example_answer": "",
+        "id": 31,
+        "name_en": "explorer",
+        "name_ru": "\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+        "siblings": "explore, exploration, explain",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u026ak\u02c8spl\u0254\u02d0r\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "This engineer designs cars.",
+        "example_answer": "",
+        "id": 32,
+        "name_en": "engineer",
+        "name_ru": "\u0438\u043d\u0436\u0435\u043d\u0435\u0440",
+        "siblings": "engine, engineering, end",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u02ccend\u0292\u026a\u02c8n\u026a\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Bakers bake bread.",
+        "example_answer": "",
+        "id": 33,
+        "name_en": "baker",
+        "name_ru": "\u043f\u0435\u043a\u0430\u0440\u044c",
+        "siblings": "bake, bakery, bike",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u02c8be\u026ak\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "My father is a traveller.",
+        "example_answer": "",
+        "id": 34,
+        "name_en": "traveller",
+        "name_ru": "\u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a",
+        "siblings": "travel, travelling, train",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u02c8tr\u00e6v(\u0259)l\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "His mother is a scientist.",
+        "example_answer": "",
+        "id": 35,
+        "name_en": "scientist",
+        "name_ru": "\u0443\u0447\u0435\u043d\u044b\u0439",
+        "siblings": "sciense, scientific, scene",
+        "topics": [
+            4
+        ],
+        "tscp": "[\u02c8sa\u026a\u0259nt\u026ast]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Mr. Big is very rich.",
+        "example_answer": "Mr. Big is not very rich (/very poor).",
+        "id": 36,
+        "name_en": "rich",
+        "name_ru": "\u0431\u043e\u0433\u0430\u0442\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[r\u026at\u0283]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "This is a rare animal.",
+        "example_answer": "This isn't a rare animal.",
+        "id": 37,
+        "name_en": "rare",
+        "name_ru": "\u0440\u0435\u0434\u043a\u0438\u0439, \u0440\u0430\u0440\u0438\u0442\u0435\u0442\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[re\u0259(r)]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "He's got dark hair.",
+        "example_answer": "He's got fair hair.",
+        "id": 38,
+        "name_en": "dark",
+        "name_ru": "\u0442\u0435\u043c\u043d\u044b\u0439",
+        "siblings": "darken, darkness, darts",
+        "topics": [
+            5
+        ],
+        "tscp": "[d\u0251\u02d0(r)k]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "Tom is tall.",
+        "example_answer": "Tom is not tall. /Tom is short.",
+        "id": 39,
+        "name_en": "tall",
+        "name_ru": "\u0432\u044b\u0441\u043e\u043a\u0438\u0439",
+        "siblings": "",
+        "topics": [
+            5
+        ],
+        "tscp": "[t\u0254\u02d0l]",
+        "unit_id": 2
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "He is a thin man.",
+        "example_answer": "He is not a thin man./He is a fat man.",
+        "id": 40,
+        "name_en": "thin",
+        "name_ru": "\u0442\u043e\u043d\u043a\u0438\u0439, \u0445\u0443\u0434\u043e\u0439",
+        "siblings": "",
+        "topics": [
+            5
+        ],
+        "tscp": "[\u03b8\u026an]",
+        "unit_id": 2
+    }
+]

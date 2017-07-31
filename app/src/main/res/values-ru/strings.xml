@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Learn Forward</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="keep_trying">Попробуй ещё раз</string>
+    <string name="right_answer">Верно!</string>
+    <string name="submit">Готово</string>
+    <string name="title_activity_statistic">Статистика</string>
+    <string name="title_activity_dictionary">Cловарь</string>
+    <string name="title_activity_feedback">Обратная связь</string>
+    <string name="play">Играть</string>
+    <string name="statistics">Статистика</string>
+    <string name="dictionary">Словарь</string>
+    <string name="settings">Настройки</string>
+    <string name="send">Поделиться статистикой</string>
+    <string name="feedback">Обратная связь</string>
+
+</resources>

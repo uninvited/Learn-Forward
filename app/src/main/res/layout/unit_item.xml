@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/unit_card_margin"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="4dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_unit_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/unit_item_card_padding">
+
+            <TextView
+                android:id="@+id/unit_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIT 1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/unit_id_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/unit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Unit name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/unit_name_text_size" />
+
+            <ProgressBar
+                android:id="@+id/unit_progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:theme="@style/LinearProgress" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/gold_cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/unit_item_card_padding"
+            android:layout_marginTop="@dimen/unit_item_card_padding"
+            android:elevation="12dp"
+            app:srcCompat="@drawable/cup_black" />
+
+        <ImageView
+            android:id="@+id/silver_cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="@dimen/unit_item_card_padding"
+            android:layout_toStartOf="@id/gold_cup"
+            android:elevation="12dp"
+            app:srcCompat="@drawable/cup_black" />
+
+        <ImageView
+            android:id="@+id/bronze_cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="@dimen/unit_item_card_padding"
+            android:layout_toStartOf="@id/silver_cup"
+            android:elevation="12dp"
+            app:srcCompat="@drawable/cup_black" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

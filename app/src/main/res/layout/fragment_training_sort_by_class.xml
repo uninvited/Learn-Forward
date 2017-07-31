@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/root_layout">
+
+    <TextView
+        android:id="@+id/word_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="@dimen/training_word_en_text_size"
+        android:textStyle="bold"
+        android:text="word"
+        android:textColor="#000"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:id="@+id/chests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_height="@dimen/chest_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/chest_noun"
+            app:srcCompat="@drawable/chest_blue"/>
+
+        <ImageView
+            android:layout_height="@dimen/chest_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/chest_verb"
+            app:srcCompat="@drawable/chest_green"/>
+
+        <ImageView
+            android:layout_height="@dimen/chest_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/chest_adjective"
+            app:srcCompat="@drawable/chest_red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chest_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chests"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/noun"
+            android:text="сущ."
+            android:textColor="@color/noun"
+            android:textSize="@dimen/chest_name_text_size"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/verb"
+            android:text="глаголы"
+            android:textColor="@color/verb"
+            android:textSize="@dimen/chest_name_text_size"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/adjective"
+            android:text="прил."
+            android:textColor="@color/adjective"
+            android:textSize="@dimen/chest_name_text_size"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/audio"
+        android:layout_width="@dimen/audio_button_size"
+        android:layout_height="@dimen/audio_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sound_drawable"
+        android:layout_margin="6dp"/>
+
+    <LinearLayout
+        android:id="@+id/indicators_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

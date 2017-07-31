@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/relative_layout">
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:theme="@style/EditTextTheme"
+        android:inputType="textNoSuggestions"
+        android:textSize="@dimen/training_edit_text_size"
+        android:hint="Your answer"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:textSize="@dimen/training_submit_btn_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:text="@string/submit"
+        android:layout_below="@+id/user_input"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/word_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/submit_button"
+        android:textSize="@dimen/training_word_en_text_size"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="word"
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/word_ru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_en"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/training_word_ru_text_size"
+        android:text="перевод"
+        android:clickable="false"/>
+
+
+    <TextView
+        android:id="@+id/word_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_ru"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:textStyle="italic"
+        android:textSize="@dimen/training_word_example_text_size"
+        android:text="This is an example" />
+
+    <ImageView
+        android:id="@+id/audio"
+        android:layout_width="@dimen/audio_button_size"
+        android:layout_height="@dimen/audio_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sound_drawable"
+        android:layout_margin="6dp"/>
+
+    <LinearLayout
+        android:id="@+id/indicators_panel"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

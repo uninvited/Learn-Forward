@@ -1,0 +1,38 @@
+<resources>
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="main_image_size">140dp</dimen>
+    <dimen name="image_varint_size">100dp</dimen>
+    <dimen name="word_en_word_ru_margin">8dp</dimen>
+    <dimen name="prev_next_buttons_margin">6dp</dimen>
+    <dimen name="chest_size">100dp</dimen>
+    <dimen name="statistic_title_text_size">16sp</dimen>
+    <dimen name="statistic_labels_text_size">12sp</dimen>
+    <dimen name="statistic_bars_height">100dp</dimen>
+    <dimen name="training_type_card_height">80dp</dimen>
+    <dimen name="training_type_card_text_size">18sp</dimen>
+    <dimen name="units_screen_margin">3dp</dimen>
+    <dimen name="cup_size">26dp</dimen>
+    <dimen name="dict_word_text_size">18sp</dimen>
+    <dimen name="training_word_en_text_size">36sp</dimen>
+    <dimen name="training_transcription_text_size">20sp</dimen>
+    <dimen name="training_word_class_text_size">14sp</dimen>
+    <dimen name="training_word_ru_text_size">20sp</dimen>
+    <dimen name="training_word_example_text_size">20sp</dimen>
+    <dimen name="answer_variants_text_size">20sp</dimen>
+    <dimen name="training_image_variants_margin_top">6dp</dimen>
+    <dimen name="prev_next_buttons_width">40dp</dimen>
+    <dimen name="prev_next_buttons_height">30dp</dimen>
+    <dimen name="chest_name_text_size">20sp</dimen>
+    <dimen name="answer_textview_variants_height">100dp</dimen>
+    <dimen name="training_edit_text_size">20sp</dimen>
+    <dimen name="training_translate_word_en_margin_top">24dp</dimen>
+    <dimen name="training_submit_btn_text_size">18sp</dimen>
+    <dimen name="training_choose_odd_hint_text_size">16sp</dimen>
+    <dimen name="training_hint_text_size">14sp</dimen>
+    <dimen name="audio_button_size">48dp</dimen>
+    <dimen name="training_card_margin">5dp</dimen>
+    <dimen name="unit_card_margin">5dp</dimen>
+
+</resources>

@@ -1,0 +1,269 @@
+[
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "The rain continued to fall.",
+        "example_answer": "",
+        "id": 81,
+        "name_en": "rain",
+        "name_ru": "\u0434\u043e\u0436\u0434\u044c",
+        "siblings": "water, wet, forest",
+        "topics": [
+            12
+        ],
+        "tscp": "[re\u026an]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "I know lots of famous pictures.",
+        "example_answer": "For example, Mona Lisa, The Last Supper, Starry Night.",
+        "id": 82,
+        "name_en": "picture",
+        "name_ru": "\u043a\u0430\u0440\u0442\u0438\u043d\u0430",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[\u02c8p\u026akt\u0283\u0259(r)]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "The trees in the rain forest grow very tall.",
+        "example_answer": "",
+        "id": 83,
+        "name_en": "grow",
+        "name_ru": "\u0440\u0430\u0441\u0442\u0438",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u0261r\u0259\u028a]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "In Russia there are lots of different seas and rivers.",
+        "example_answer": "For example, The Black Sea, the Laptev Sea, the Bering Sea, the Volga, the Lena, the Ob.",
+        "id": 84,
+        "name_en": "different",
+        "name_ru": "\u0434\u0440\u0443\u0433\u043e\u0439, \u0440\u0430\u0437\u043d\u044b\u0439",
+        "siblings": "",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u02c8d\u026afr\u0259nt]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "In Autumn all the leaves fall down.",
+        "example_answer": "",
+        "id": 85,
+        "name_en": "fall",
+        "name_ru": "\u043f\u0430\u0434\u0430\u0442\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[f\u0254\u02d0l]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "There is one red leaf and two yellow leaves in my collection.",
+        "example_answer": "",
+        "id": 86,
+        "name_en": "leaf",
+        "name_ru": "\u043b\u0438\u0441\u0442",
+        "siblings": "flower, fruit, insect",
+        "topics": [
+            12
+        ],
+        "tscp": "[li\u02d0f]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "These trees can grow very high.",
+        "example_answer": "For example, fur trees, palms.",
+        "id": 87,
+        "name_en": "high",
+        "name_ru": "\u0432\u044b\u0441\u043e\u043a\u0438\u0439",
+        "siblings": "tall, big, short",
+        "topics": [
+            16
+        ],
+        "tscp": "[ha\u026a]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Sunflower is a high plant.",
+        "example_answer": "",
+        "id": 88,
+        "name_en": "plant",
+        "name_ru": "\u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0435",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[pl\u0251\u02d0nt]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u043d\u0430\u0440\u0435\u0447.",
+        "example": "This animal can move quickly in water.",
+        "example_answer": "For example, fish, snake, platypus.",
+        "id": 89,
+        "name_en": "quickly",
+        "name_ru": "\u0431\u044b\u0441\u0442\u0440\u043e",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[\u02c8kw\u026akli]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "These flowers grow in gardens.",
+        "example_answer": "For example, roses, sunflowers.",
+        "id": 90,
+        "name_en": "garden",
+        "name_ru": "\u0441\u0430\u0434",
+        "siblings": "",
+        "topics": [
+            12
+        ],
+        "tscp": "[\u02c8\u0261\u0251\u02d0(r)d(\u0259)n]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "Roses can hurt you.",
+        "example_answer": "",
+        "id": 91,
+        "name_en": "hurt",
+        "name_ru": "\u043f\u0440\u0438\u0447\u0438\u043d\u044f\u0442\u044c \u0431\u043e\u043b\u044c",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[h\u025c\u02d0(r)t]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "The weather in rain forests is hot and wet.",
+        "example_answer": "",
+        "id": 92,
+        "name_en": "wet",
+        "name_ru": "\u0432\u043b\u0430\u0436\u043d\u044b\u0439",
+        "siblings": "hot, cold, rain",
+        "topics": [
+            16
+        ],
+        "tscp": "[wet]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Some plants eat insects.",
+        "example_answer": "For example, pitcher plant.",
+        "id": 93,
+        "name_en": "insect",
+        "name_ru": "\u043d\u0430\u0441\u0435\u043a\u043e\u043c\u043e\u0435",
+        "siblings": "bird, fish, rose",
+        "topics": [
+            10,
+            12
+        ],
+        "tscp": "[\u02c8\u026ansekt]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "What is your favourite country in Europe?",
+        "example_answer": "For example, Great Britain.",
+        "id": 94,
+        "name_en": "country",
+        "name_ru": "\u0441\u0442\u0440\u0430\u043d\u0430",
+        "siblings": "city, town, river",
+        "topics": [],
+        "tscp": "[\u02c8k\u028cntri]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "There are 50 countries in Europe.",
+        "example_answer": "For example, France, Germany, Italy, Spain.",
+        "id": 95,
+        "name_en": "Europe",
+        "name_ru": "\u0415\u0432\u0440\u043e\u043f\u0430",
+        "siblings": "Asia, Africa, Russia",
+        "topics": [],
+        "tscp": "[\u02c8j\u028a\u0259r\u0259p]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0441\u0443\u0449.",
+        "example": "Indonesia and different other countries are in Asia.",
+        "example_answer": "For example, China, Japan, India.",
+        "id": 96,
+        "name_en": "Asia",
+        "name_ru": "\u0410\u0437\u0438\u044f",
+        "siblings": "Australia, Europe, France",
+        "topics": [],
+        "tscp": "[\u02c8e\u026a\u0292\u0259]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u043f\u0440\u0438\u043b.",
+        "example": "My rose is so beautiful.",
+        "example_answer": "",
+        "id": 97,
+        "name_en": "beautiful",
+        "name_ru": "\u043a\u0440\u0430\u0441\u0438\u0432\u044b\u0439",
+        "siblings": "nice, lovely, wet",
+        "topics": [
+            16
+        ],
+        "tscp": "[\u02c8bju\u02d0t\u0259f(\u0259)l]",
+        "unit_id": 5
+    },
+    {
+        "class": "",
+        "example": "This plant has lots of leaves.",
+        "example_answer": "For example, a rose, a sunflower.",
+        "id": 98,
+        "name_en": "lots of",
+        "name_ru": "\u043c\u043d\u043e\u0433\u043e",
+        "siblings": "a lot, many, little",
+        "topics": [],
+        "tscp": "[l\u0252ts \u0259v]",
+        "unit_id": 5
+    },
+    {
+        "class": "\u0433\u043b.",
+        "example": "Don't touch it!",
+        "example_answer": "",
+        "id": 99,
+        "name_en": "touch",
+        "name_ru": "\u0442\u0440\u043e\u0433\u0430\u0442\u044c, \u043a\u0430\u0441\u0430\u0442\u044c\u0441\u044f",
+        "siblings": "",
+        "topics": [
+            17
+        ],
+        "tscp": "[t\u028ct\u0283]",
+        "unit_id": 5
+    },
+    {
+        "class": "",
+        "example": "Please stay till tomorrow!",
+        "example_answer": "",
+        "id": 100,
+        "name_en": "till",
+        "name_ru": "\u0434\u043e",
+        "siblings": "",
+        "topics": [],
+        "tscp": "[t\u026al]",
+        "unit_id": 5
+    }
+]
